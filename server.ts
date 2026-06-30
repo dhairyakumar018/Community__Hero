@@ -180,7 +180,7 @@ app.post('/api/report', async (req, res) => {
           }
         };
         const textPart = {
-          text: `You are 'Agent 1: Vision Classifier', the primary classification module of the 'Community Hero' platform. 
+          text: `You are 'Agent 1: Vision Classifier', the primary classification module of the 'JantaFix' platform. 
                  Analyze this image of a municipal/civic issue in India. 
                  Identify:
                  1. Category: Must be strictly one of: 'pothole', 'garbage', 'streetlight', 'water', 'other'.
@@ -467,7 +467,7 @@ app.post('/api/resolve', async (req, res) => {
           }
         };
         const textPart = {
-          text: `You are 'Agent 3: Resolution Verifier' on the 'Community Hero' platform.
+          text: `You are 'Agent 3: Resolution Verifier' on the 'JantaFix' platform.
                  Compare the first photo (original reported issue: ${issue.category} - "${issue.title}")
                  with the second photo (resolution photo submitted by citizen/officer).
                  

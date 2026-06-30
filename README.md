@@ -1,11 +1,11 @@
-# 🌟 Community Hero - Hyperlocal Civic Problem Solver
+# 🌟 JantaFix - Hyperlocal Civic Problem Solver
 
 [![Vibe2Ship Hackathon](https://img.shields.io/badge/Vibe2Ship-Hackathon-orange.svg?style=for-the-badge)](https://blockseblock.com)
 [![Google Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-Deployed-blue.svg?style=for-the-badge&logo=google-cloud)](https://cloud.google.com)
 [![Vite](https://img.shields.io/badge/Vite-React_18-646CFF.svg?style=for-the-badge&logo=vite)](https://vitejs.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Secure-3178C6.svg?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
 
-**Community Hero** is a modern, mobile-first, AI-driven hyperlocal civic issue reporting and resolution platform. It bridges the gap between active citizens and municipal ward officers, transforming passive residents into "Civic Heroes." Through interactive mapping, gamified reward loops, WhatsApp automated reporting channels, and dynamic admin routing, it streamlines public infrastructure repair (potholes, water leaks, broken streetlights, waste piles) to keep communities safe and beautiful.
+**JantaFix** is a modern, mobile-first, AI-driven hyperlocal civic issue reporting and resolution platform. It bridges the gap between active citizens and municipal ward officers, transforming passive residents into "Civic Heroes." Through interactive mapping, gamified reward loops, WhatsApp automated reporting channels, and dynamic admin routing, it streamlines public infrastructure repair (potholes, water leaks, broken streetlights, waste piles) to keep communities safe and beautiful.
 
 ---
 

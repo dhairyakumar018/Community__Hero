@@ -4,17 +4,17 @@
 
 ---
 
-# 🌟 Vibe2Ship Hackathon Submission: Community Hero
+# 🌟 Vibe2Ship Hackathon Submission: JantaFix
 
 ### 👤 Participant Details
-* **App Name:** Community Hero - Hyperlocal Problem Solver
+* **App Name:** JantaFix - Hyperlocal Problem Solver
 * **Deployed Application Link:** https://ais-pre-ynbt6v2hzdly6hjsxy4zrl-460007719860.asia-southeast1.run.app
 * **GitHub Repository Link:** [Paste your exported GitHub Repository Link here]
 
 ---
 
 ## 1. 🎯 Problem Statement Selected
-**Problem Statement 2 - Community Hero (Hyperlocal Problem Solver)**
+**Problem Statement 2 - JantaFix (Hyperlocal Problem Solver)**
 
 * **The Challenge:** Communities face ongoing public infrastructure degradation (e.g., potholes, illegal garbage piles, broken streetlights) that goes unreported due to fragmented communication channels, lack of tracking visibility, and absence of civic accountability.
 * **Our Mission:** Build a unified, mobile-first hyperlocal platform that converts passive residents into active "Neighborhood Heroes" through simplified multi-channel reporting, gamified civic points, and a restricted command dashboard for municipal ward officers to accelerate problem-solving.
@@ -22,7 +22,7 @@
 ---
 
 ## 2. 💡 Solution Overview
-**Community Hero** is a high-fidelity, dual-interface, mobile-optimized platform that bridges the communication gap between citizens and local authorities. 
+**JantaFix** is a high-fidelity, dual-interface, mobile-optimized platform that bridges the communication gap between citizens and local authorities. 
 
 * **Citizen Experience:** Citizens can log in securely via OTP, view active issues on an interactive real-time map, log new issues instantly using natural language or photos, upvote nearby duplicate reports to prevent database clutter, track active issues in a clean timeline, chat with an automated WhatsApp civic assistant, and earn rewards (points, levels, and badges) to highlight their local impact.
 * **Municipal Experience:** Administrative municipal officers, ward coordinators, and department heads are automatically directed to a specialized Command Center dashboard. This interface restricts views based on their assigned wards or departments, lists active work tickets with SLA indicators, enables direct reassignments, maps analytics, and features an **Intelligent Route Optimizer** to plan the fastest physical route for field crews to resolve issues.

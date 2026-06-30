@@ -22,7 +22,7 @@ export default function WhatsAppView({ onBack }: WhatsAppViewProps) {
   const conversations: Record<'en' | 'hi' | 'ta', Message[]> = {
     en: [
       { id: '1', sender: 'user', text: 'Hello, I want to report an issue.', timestamp: '11:42 AM' },
-      { id: '2', sender: 'bot', text: 'Namaste! Welcome to Community Hero Bot. 🗺️\n\nPlease snap and upload a photo of the civic issue (pothole, garbage, streetlight, water leak).', timestamp: '11:42 AM' },
+      { id: '2', sender: 'bot', text: 'Namaste! Welcome to JantaFix Bot. 🗺️\n\nPlease snap and upload a photo of the civic issue (pothole, garbage, streetlight, water leak).', timestamp: '11:42 AM' },
       { id: '3', sender: 'user', text: 'Uploading photo...', timestamp: '11:43 AM', image: 'https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=400' },
       { id: '4', sender: 'bot', text: '✓ Photo received!\n\nAI analysis classified: GARBAGE PILE 🗑️\nSeverity: MEDIUM ⚠️\n\nPlease share your current GPS coordinates, or send your nearest landmark.', timestamp: '11:43 AM' },
       { id: '5', sender: 'user', text: 'Near Metro Station pillar 42, Indiranagar', timestamp: '11:44 AM' },
@@ -30,7 +30,7 @@ export default function WhatsAppView({ onBack }: WhatsAppViewProps) {
     ],
     hi: [
       { id: '1', sender: 'user', text: 'नमस्ते, मैं एक समस्या की रिपोर्ट करना चाहता हूँ।', timestamp: '11:42 AM' },
-      { id: '2', sender: 'bot', text: 'नमस्ते! कम्युनिटी हीरो बॉट में आपका स्वागत है। 🗺️\n\nकृपया नागरिक समस्या (गड्ढा, कचरा, स्ट्रीटलाइट, पानी का रिसाव) की एक फोटो खींचकर अपलोड करें।', timestamp: '11:42 AM' },
+      { id: '2', sender: 'bot', text: 'नमस्ते! जनताफ़िक्स बॉट में आपका स्वागत है। 🗺️\n\nकृपया नागरिक समस्या (गड्ढा, कचरा, स्ट्रीटलाइट, पानी का रिसाव) की एक फोटो खींचकर अपलोड करें।', timestamp: '11:42 AM' },
       { id: '3', sender: 'user', text: 'फोटो अपलोड कर रहा हूँ...', timestamp: '11:43 AM', image: 'https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=400' },
       { id: '4', sender: 'bot', text: '✓ फोटो प्राप्त हुई!\n\nएआई विश्लेषण श्रेणी: सड़क का गड्ढा (POTHOLE) 🕳️\nतीव्रता: उच्च (HIGH) ⚠️\n\nकृपया अपने वर्तमान जीपीएस निर्देशांक (GPS) साझा करें, या अपना निकटतम लैंडमार्क भेजें।', timestamp: '11:43 AM' },
       { id: '5', sender: 'user', text: 'उस्मान रोड बस स्टैंड के पास', timestamp: '11:44 AM' },
@@ -38,7 +38,7 @@ export default function WhatsAppView({ onBack }: WhatsAppViewProps) {
     ],
     ta: [
       { id: '1', sender: 'user', text: 'வணக்கம், நான் ஒரு புகாரை பதிவு செய்ய வேண்டும்.', timestamp: '11:42 AM' },
-      { id: '2', sender: 'bot', text: 'வணக்கம்! கம்யூனிட்டி ஹீரோ வாட்ஸ்அப் போட்க்கு வரவேற்கிறோம். 🗺️\n\nசாலையோர குப்பைகள், உடைந்த தெருவிளக்குகள் போன்ற புகாரை ஒரு புகைப்படமாக எடுத்து அனுப்பவும்.', timestamp: '11:42 AM' },
+      { id: '2', sender: 'bot', text: 'வணக்கம்! ஜந்தாபிக்ஸ் வாட்ஸ்அப் போட்க்கு வரவேற்கிறோம். 🗺️\n\nசாலையோர குப்பைகள், உடைந்த தெருவிளக்குகள் போன்ற புகாரை ஒரு புகைப்படமாக எடுத்து அனுப்பவும்.', timestamp: '11:42 AM' },
       { id: '3', sender: 'user', text: 'புகைப்படம் அனுப்புகிறேன்...', timestamp: '11:43 AM', image: 'https://images.unsplash.com/photo-1509143139826-657a799a629b?auto=format&fit=crop&q=80&w=400' },
       { id: '4', sender: 'bot', text: '✓ புகைப்படம் பெறப்பட்டது!\n\nஎங்கள் AI பகுப்பாய்வு: உடைந்த தெருவிளக்கு (STREETLIGHT) 💡\nதீவிரம்: நடுத்தரமானது ⚠️\n\nஉங்கள் தற்போதைய இருப்பிடத்தை (GPS Coordinates) பகிரவும் அல்லது அருகில் உள்ள அடையாளத்தை அனுப்பவும்.', timestamp: '11:43 AM' },
       { id: '5', sender: 'user', text: 'ஜி பி ரோடு தியேட்டர் அருகில்', timestamp: '11:44 AM' },
@@ -70,10 +70,10 @@ export default function WhatsAppView({ onBack }: WhatsAppViewProps) {
         <div className="bg-emerald-800/90 p-4 flex items-center justify-between border-b border-slate-800">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-emerald-400 font-extrabold text-sm border-2 border-emerald-500/20">
-              CH
+              JF
             </div>
             <div>
-              <h3 className="text-xs font-black text-slate-100">Community Hero Bot</h3>
+              <h3 className="text-xs font-black text-slate-100">JantaFix Bot</h3>
               <p className="text-[9px] text-emerald-200">Online • Auto-Translate Enabled</p>
             </div>
           </div>

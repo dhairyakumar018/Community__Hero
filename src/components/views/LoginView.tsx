@@ -118,7 +118,7 @@ export default function LoginView({ onLoginSuccess, theme = 'dark' }: LoginViewP
       {/* App Branding */}
       <div className="text-center space-y-2">
         <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white font-extrabold text-2xl mx-auto shadow-lg shadow-blue-500/25">
-          CH
+          JF
         </div>
         <h2 className={`text-xl font-extrabold tracking-tight ${theme === 'light' ? 'text-slate-800' : 'text-slate-100'}`}>
           {t('app_name')}

@@ -48,7 +48,7 @@ export default function LandingView({
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold text-sm shadow-md shadow-blue-500/20">
-            CH
+            JF
           </div>
           <span className={`font-sans font-bold text-lg tracking-tight ${theme === 'light' ? 'text-slate-800' : 'text-white'}`}>
             {t('app_name')}

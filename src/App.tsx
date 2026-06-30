@@ -181,7 +181,7 @@ export default function App() {
     return (
       <div id="app-loading-screen" className="min-h-screen bg-slate-950 flex flex-col items-center justify-center space-y-4">
         <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin" />
-        <p className="text-slate-400 font-medium text-xs tracking-wider uppercase">Loading Community Hero...</p>
+        <p className="text-slate-400 font-medium text-xs tracking-wider uppercase">Loading JantaFix...</p>
       </div>
     );
   }

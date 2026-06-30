@@ -3,7 +3,7 @@ import { Language } from '../types';
 export const translations: Record<Language, Record<string, string>> = {
   en: {
     // Nav & Common
-    app_name: 'Community Hero',
+    app_name: 'JantaFix',
     reporting: 'Report',
     map: 'Live Map',
     dashboard: 'Dashboard',
@@ -123,7 +123,7 @@ export const translations: Record<Language, Record<string, string>> = {
     ai_officer_insights: 'Gemini Officer Insights'
   },
   hi: {
-    app_name: 'कम्युनिटी हीरो',
+    app_name: 'जनताफ़िक्स',
     reporting: 'रिपोर्ट करें',
     map: 'लाइव मानचित्र',
     dashboard: 'डैशबोर्ड',
@@ -229,7 +229,7 @@ export const translations: Record<Language, Record<string, string>> = {
     ai_officer_insights: 'जेमिनी अधिकारी अंतर्दृष्टि'
   },
   ta: {
-    app_name: 'கம்யூனிட்டி ஹீரோ',
+    app_name: 'ஜந்தாபிக்ஸ்',
     reporting: 'புகார் செய்',
     map: 'நேரடி வரைபடம்',
     dashboard: 'டாஷ்போர்டு',
@@ -335,7 +335,7 @@ export const translations: Record<Language, Record<string, string>> = {
     ai_officer_insights: 'ஜெமினி அதிகாரி நுண்ணறிவு'
   },
   te: {
-    app_name: 'కమ్యూనిటీ హీరో',
+    app_name: 'జంతాఫిక్స్',
     reporting: 'రిపోర్ట్ చేయి',
     map: 'లైవ్ మ్యాప్',
     dashboard: 'డాష్‌బోర్డ్',
@@ -441,7 +441,7 @@ export const translations: Record<Language, Record<string, string>> = {
     ai_officer_insights: 'జెమిని అధికారి అంతర్దృష్టులు'
   },
   bn: {
-    app_name: 'কমিউনিটি হিরো',
+    app_name: 'জনতাফিক্স',
     reporting: 'রিপোর্ট করুন',
     map: 'লাইভ মানচিত্র',
     dashboard: 'ড্যাশবোর্ড',
