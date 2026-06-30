@@ -119,15 +119,3 @@ To run this project on your local machine, follow these steps:
    npm run build
    ```
 
----
-
-## 🏆 Hackathon Evaluation Alignment
-
-This platform is custom-built to hit top scores in every criterion of the **Vibe2Ship Evaluation Matrix**:
-
-* **Problem Solving & Impact (20%):** Direct digital bridges between citizens and municipal officers, replacing slow offline forms.
-* **Agentic Depth & AI Capabilities (20%):** Deploys Google Gemini for automated report ingestion, severity routing, and simulated WhatsApp chat logic.
-* **Innovation & Creativity (20%):** Solves the "ticket duplicate" issue through location-based deduplication algorithms and gamified upvoting incentives.
-* **Usage of Google Technologies (15%):** Pure server-side integration of Google Gemini API and cloud container-ready builds.
-* **Product Experience & Design (10%):** High-fidelity responsive mobile design, customizable map tiles, and eye-friendly dark/light theme options.
-* **Completeness & Usability (5%):** Clean source organization, standard CJS compilation scripts, fully persistent local and mock states.
